@@ -1,11 +1,7 @@
 pipeline { 
     agent any 
     stages { 
-        stage('Compile') { 
-DevOps Lab Manual 
- 
-SOAS, SNPSU                                                                                                                  2025-26 
- 
+        stage('Compile') {
             steps { 
                 bat 'javac Hello.java' 
             } 
